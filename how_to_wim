@@ -1,0 +1,34 @@
+hello i am oscar
+w	ett ord farmåt
+W	till ordet after nästa mellanslag
+b	ett ord bakot
+G	bottnet av filen
+gg	toppen av filen
+0	början av raden
+$	slute av raden 
+
+
+man kan modifiera movements med tal, prova t.ex. 2w
+
+Exempel på actions:
+i	insert mode vid kursorn
+I	Insert vid början av raden
+a	append, insert mode vid  bokstav till höger av kursorn
+A	append, insert mode vid  slutet av raden
+o	insert mode en rad under, skapa ny rad
+O	insert en rad ovan för, skapa ny rad
+
+d	delete, radera text, krever en movement. raderar allt mellan kursorn och vart den flyttar sig 
+dd	raderar en rad
+d3d	raderar tre rader
+D	raderar till slutet av raden
+
+u	undo
+Ctrl+R	redo
+.	gör om förra kommando
+
+c	change, samma som d, fast startar insert mode
+
+/	sök ord
+f	sök bokstav framåt
+F	sök bokstav bakåt 
